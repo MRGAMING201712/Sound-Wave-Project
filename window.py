@@ -20,10 +20,13 @@ load_file.pack(padx = 0, pady = 50)
 combine_plots = Button(main_window, text="Combine plots") # add, command = combine
 combine_plots.pack(padx = 0, pady = 50)
 
-#add button and additional visual output (our choice)
+
 
 alternate_plots1 = Button(main_window, text="Alternate plots") # extra credit, add, command = alternate_plots, alternates between low, mid, high plots
 alternate_plots1.pack(padx = 0, pady = 50)
+
+
+#add button and additional visual output (our choice)
 
 
 main_window.mainloop()
